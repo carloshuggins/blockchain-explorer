@@ -6,7 +6,7 @@ Execute the below command and check peer/orderer is running up or not and verify
 
 #### Code : docker ps
 
-you can open the ~/fabric-tools/DevServer_connectio.json and check , channels , organizations,orderers and peers
+you can open the ~/fabric-tools/DevServer_connection.json and check , channels , organizations,orderers and peers
 
 based on that above file configuration we need to configure in Hyperledger Explorer config json ( network-config-name,mspid,peer(requests,events,server-hostname,tls_cacerts),admin(key,cert),channel and orderers(mspid,server_hostname,requests,tls_cacerts).
 
